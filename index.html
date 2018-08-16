@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Touch</title>
+     <link href="style.css" rel="stylesheet" type="text/css">
+     <script type="text/javascript" src="typed.js"></script>  
+    </head>
+
+
+<body>
+<div class = "background">
+        <video id="Front" preload="autho" autoplay="true" muted="muted">
+        <source src ="Front.mp4" type="video/mp4">
+        Video not Supported
+        </video>
+    </div>
+    
+<div class="content">
+        <div id="one">
+            <p><a href="first.html" target="_blank">"Stray birds of summer come to my window to sing and fly away."
+        </a></p>
+        </div>
+        <span class = "ONEE" id="typed"></span> 
+        
+        
+        <div id ="two" >
+            <a href="second.html"  target="_blank">
+                <span id ="typed6"></span></a></div>
+    
+        
+     <div id ="three" >
+            <p><a href="third.html"  target="_blank">Once we dreamt that we were dear to each other, we wake up to find that we were strangers.</a></p></div>
+    <div id = "THREEE" ><span id ="typed5"></span></div>
+
+       
+    
+         <div id = "four">
+         <a href = "fourth.html"  target="_blank"><span id="typed4"></span></a>
+        </div>  
+</div>
+    
+</body>
+    
+    
+    <script>
+        
+
+        
+    var typed = new Typed('#typed', {
+    stringsElement: '#one',
+        startDelay: 37000,
+        typeSpeed:80
+    });
+        
+    var typed6 = new Typed('#typed6', {
+    strings: ['“Our names are the light that glows on the sea waves at night and then dies without leaving its signature.”'],
+      startDelay: 42000,
+         typeSpeed:100,
+    backSpeed: 0
+    });
+
+    var typed5 = new Typed('#typed5', {
+     stringsElement: '#three',
+//         startDelay: 6000,
+    //    strings: ['how I would hold you the way you want to be aaaahed<i>strings</i> with', 'cant held youcna sidaodjaodiodadiaosd<strong>HTML</strong>', '3 Chars &times; &copy;'],
+    typeSpeed: 200,
+     backDelay:30000,
+     backSpeed: 300,
+     shuffle: true,
+     smartBackspace: false,
+     loop: true
+
+    });
+    
+        
+      var typed4 = new Typed('#typed4', {
+        strings: ['"The raindrop whispered to the jasmine, Keep me in your heart for ever.The jasmine sighed, Alas, and dropped to the ground."'],
+      startDelay: 45000,
+        typeSpeed: 90
+    
+    });
+        
+    </script>
+</html>
